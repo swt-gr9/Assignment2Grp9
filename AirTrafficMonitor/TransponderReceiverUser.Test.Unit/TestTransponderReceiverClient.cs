@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using NSubstitute;
 using NUnit.Framework;
 using TransponderReceiver;
@@ -16,6 +17,7 @@ namespace TransponderReceiverUser.Test.Unit
             _fakeTransponderReceiver = Substitute.For<ITransponderReceiver>();
             // Inject the fake TDR
             _uut = new TransponderReceiverClient(_fakeTransponderReceiver);
+            
         }
 
         [Test]

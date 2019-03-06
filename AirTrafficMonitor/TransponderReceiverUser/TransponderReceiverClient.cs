@@ -1,4 +1,5 @@
-﻿using TransponderReceiver;
+﻿using System;
+using TransponderReceiver;
 
 namespace TransponderReceiverUser
 {
@@ -18,11 +19,12 @@ namespace TransponderReceiverUser
 
         private void ReceiverOnTransponderDataReady(object sender, RawTransponderDataEventArgs e)
         {
-            // Just display data
+            Console.WriteLine("---------------");// Just display data
             foreach (var data in e.TransponderData)
             {
                 System.Console.WriteLine($"Transponderdata {data}");    
             }
+            Console.WriteLine("------------");
         }
     }
 }
