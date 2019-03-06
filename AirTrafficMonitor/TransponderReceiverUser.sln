@@ -9,9 +9,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransponderReceiverUser.Tes
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransponderReceiverApplication", "TransponderReceiverApplication\TransponderReceiverApplication.csproj", "{5BF5A5A7-E181-4321-A362-D16F4849586A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plane", "Plane\Plane.csproj", "{AD522417-EB54-42F2-A5B4-A8039CBAA7DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Plane", "Plane\Plane.csproj", "{AD522417-EB54-42F2-A5B4-A8039CBAA7DD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator", "Calculator\Calculator.csproj", "{F2957F65-B24A-4159-9D69-4998F2200715}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calculator", "Calculator\Calculator.csproj", "{F2957F65-B24A-4159-9D69-4998F2200715}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator_Unit_Test", "Calculator_Unit_Test\Calculator_Unit_Test.csproj", "{76912BF9-3E96-4E07-8675-8E0E147F94B3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UnitTests", "UnitTests", "{1E36EA81-E0CE-491A-B8E6-5581A8E94824}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,9 +43,16 @@ Global
 		{F2957F65-B24A-4159-9D69-4998F2200715}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F2957F65-B24A-4159-9D69-4998F2200715}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F2957F65-B24A-4159-9D69-4998F2200715}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76912BF9-3E96-4E07-8675-8E0E147F94B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76912BF9-3E96-4E07-8675-8E0E147F94B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76912BF9-3E96-4E07-8675-8E0E147F94B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76912BF9-3E96-4E07-8675-8E0E147F94B3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{76912BF9-3E96-4E07-8675-8E0E147F94B3} = {1E36EA81-E0CE-491A-B8E6-5581A8E94824}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E1E3A2BB-36E7-4C16-AD38-7C49CC5CD24D}

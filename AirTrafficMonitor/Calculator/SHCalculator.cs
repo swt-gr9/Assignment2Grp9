@@ -16,7 +16,7 @@ namespace Calculator
 
         public static int GetCurrentHeading(int x, int y)
         {
-            
+            return (int)Math.Atan2(y, x);
         }
     }
 }
