@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransponderReceiverApplicat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plane", "Plane\Plane.csproj", "{AD522417-EB54-42F2-A5B4-A8039CBAA7DD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator", "Calculator\Calculator.csproj", "{F2957F65-B24A-4159-9D69-4998F2200715}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{AD522417-EB54-42F2-A5B4-A8039CBAA7DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AD522417-EB54-42F2-A5B4-A8039CBAA7DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AD522417-EB54-42F2-A5B4-A8039CBAA7DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2957F65-B24A-4159-9D69-4998F2200715}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2957F65-B24A-4159-9D69-4998F2200715}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2957F65-B24A-4159-9D69-4998F2200715}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2957F65-B24A-4159-9D69-4998F2200715}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
