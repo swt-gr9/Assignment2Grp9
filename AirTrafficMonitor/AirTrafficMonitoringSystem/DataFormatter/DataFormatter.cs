@@ -6,14 +6,15 @@ using System.Threading.Tasks;
 
 namespace AirTrafficMonitoringSystem.DataFormatter
 {
-    class DataFormatter
+    public class DataFormatter : IDataFormatter
     {
 
         public DataFormatter() { }
 
-        Plane.Plane FormatFromString(String planeinfo)
+        public Plane.Plane FormatFromString(String planeinfo)
         {
-            return new Plane.Plane();
+            new Plane.Plane() planicus; 
+            return 
         }
     }
 }
