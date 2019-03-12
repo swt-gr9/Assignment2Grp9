@@ -13,8 +13,8 @@ namespace AirTrafficMonitoringSystem.DataFormatter
 
         public Plane.Plane FormatFromString(String planeinfo)
         {
-            new Plane.Plane() planicus; 
-            return 
+            
+            return new Plane.Plane();
         }
     }
 }
