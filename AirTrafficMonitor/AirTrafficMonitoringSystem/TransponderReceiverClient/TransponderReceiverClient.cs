@@ -1,29 +1,34 @@
 ﻿using System;
+using System.Collections.Generic;
+using AirTrafficMonitoringSystem.DataFormatter;
+using TransponderReceiver;
 
 namespace AirTrafficMonitoringSystem.TransponderReceiverClient
 {
     public class TransponderReceiverClient
     {
         private ITransponderReceiver receiver;
-
-        // Using constructor injection for dependency/ies
-        public TransponderReceiverClient(ITransponderReceiver receiver)
+        private IDataFormatter _dataFormatter;
+        
+        public TransponderReceiverClient(ITransponderReceiver receiver, IDataFormatter dataFormatter)
         {
-            // This will store the real or the fake transponder data receiver
+            _dataFormatter = dataFormatter;
             this.receiver = receiver;
 
-            // Attach to the event of the real or the fake TDR
+            
             this.receiver.TransponderDataReady += ReceiverOnTransponderDataReady;
         }
 
         private void ReceiverOnTransponderDataReady(object sender, RawTransponderDataEventArgs e)
         {
-            Console.WriteLine("---------------");// Just display data
+            
+
+            List<Plane.Plane> tempPlanes = new List<Plane.Plane>();
             foreach (var data in e.TransponderData)
             {
-                System.Console.WriteLine($"Transponderdata {data}");    
+                tempPlanes.Add(_dataFormatter.FormatFromString(data));
             }
-            Console.WriteLine("------------");
+            
         }
     }
 }
