@@ -1,8 +1,9 @@
 ﻿using System;
+using AirTrafficMonitoringSystem.Plane;
 
 namespace AirTrafficMonitoringSystem.Calculator
 {
-    public static class SHCalculator
+    public static class Calculator
     {
         /// <summary>
         /// Returnerer farten ud fra ændring i x og y koordinat og tiden imellem
@@ -21,6 +22,12 @@ namespace AirTrafficMonitoringSystem.Calculator
             return Math.Sqrt((Math.Pow(x, 2) + Math.Pow(y, 2)));
         }
 
+        /// <summary>
+        /// Returnerer vinklen i forhold til y-aksen. 0 grader er stik nord
+        /// </summary>
+        /// <param name="deltaX"></param>
+        /// <param name="deltaY"></param>
+        /// <returns></returns>
         public static double GetCurrentHeading(int deltaX, int deltaY)
         {
             var radius = GetDistance(deltaX, deltaY);

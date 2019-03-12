@@ -2,6 +2,11 @@
 
 namespace Calculator
 {
+
+    public interface ICalculator
+    {
+       
+    }
     public static class SHCalculator
     {
         /// <summary>
