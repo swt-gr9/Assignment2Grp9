@@ -1,9 +1,6 @@
-using System;
 using NUnit.Framework;
-using NUnit.Framework.Internal;
 
-
-namespace Calculator_UnitTest
+namespace Calculator_Unit_Test
 {
     [TestFixture]
     public class CalculatorTest
