@@ -2,7 +2,7 @@
 
 namespace AirTrafficMonitoringSystem.DataFormatter
 {
-    internal interface IDataFormatter
+    public interface IDataFormatter
     {
         Plane.Plane FormatFromString(String planeinfo);
     }
