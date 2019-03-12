@@ -1,0 +1,14 @@
+C:\Users\midtg\Desktop\TransponerClientApp\TransponderReceiverApplication\bin\Debug\TransponderReceiverApplication.exe.config
+C:\Users\midtg\Desktop\TransponerClientApp\TransponderReceiverApplication\bin\Debug\TransponderReceiverApplication.exe
+C:\Users\midtg\Desktop\TransponerClientApp\TransponderReceiverApplication\bin\Debug\TransponderReceiverApplication.pdb
+C:\Users\midtg\Desktop\TransponerClientApp\TransponderReceiverApplication\bin\Debug\nunit.framework.dll
+C:\Users\midtg\Desktop\TransponerClientApp\TransponderReceiverApplication\bin\Debug\TransponderReceiver.dll
+C:\Users\midtg\Desktop\TransponerClientApp\TransponderReceiverApplication\bin\Debug\TransponderReceiverUser.dll
+C:\Users\midtg\Desktop\TransponerClientApp\TransponderReceiverApplication\bin\Debug\TransponderReceiverUser.pdb
+C:\Users\midtg\Desktop\TransponerClientApp\TransponderReceiverApplication\bin\Debug\nunit.framework.pdb
+C:\Users\midtg\Desktop\TransponerClientApp\TransponderReceiverApplication\bin\Debug\nunit.framework.xml
+C:\Users\midtg\Desktop\TransponerClientApp\TransponderReceiverApplication\obj\Debug\TransponderReceiverApplication.csprojAssemblyReference.cache
+C:\Users\midtg\Desktop\TransponerClientApp\TransponderReceiverApplication\obj\Debug\TransponderReceiverApplication.csproj.CoreCompileInputs.cache
+C:\Users\midtg\Desktop\TransponerClientApp\TransponderReceiverApplication\obj\Debug\TransponderReceiverApplication.csproj.CopyComplete
+C:\Users\midtg\Desktop\TransponerClientApp\TransponderReceiverApplication\obj\Debug\TransponderReceiverApplication.exe
+C:\Users\midtg\Desktop\TransponerClientApp\TransponderReceiverApplication\obj\Debug\TransponderReceiverApplication.pdb
