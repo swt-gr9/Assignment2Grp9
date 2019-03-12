@@ -41,7 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Calculator\SHCalculator.cs" />
+    <Compile Include="Calculator\Calculator.cs" />
     <Compile Include="DataFormatter\DataFormatter.cs" />
     <Compile Include="DataFormatter\IDataFormatter.cs" />
     <Compile Include="Plane\Plane.cs" />
