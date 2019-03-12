@@ -30,11 +30,63 @@ namespace AirTrafficMonitoringSystem.Calculator
         /// <returns></returns>
         public static double GetCurrentHeading(int deltaX, int deltaY)
         {
-            var radius = GetDistance(deltaX, deltaY);
-            var radian = Math.Asin(deltaX / radius);
+            if (deltaX == 0)
+            {
+                if (deltaY > 0)
+                {
+                    return 0.0;
+                }
+                else if (deltaY < 0)
+                {
+                    return 180.0;
+                }
+                else
+                {
+                    throw new PlaneNotMovingExeption();
+                }
+            }
+            else if (deltaY == 0)
+            {
+                if (deltaX > 0)
+                {
+                    return 90.0;
+                }
+                else if (deltaX < 0)
+                {
+                    return 270.0;
+                }
+                else
+                {
+                    throw  new PlaneNotMovingExeption();
+                }
+            }
 
+            double Offset = 0;
 
-            return radian * 180/Math.PI;
+            
+
+            return Math.Atan(deltaX / deltaY);
+        }
+
+        public static bool AreColliding(int deltaX, int deltaY)
+        {
+            return (GetDistance(deltaX, deltaY) > 5000);
+        }
+
+        private double CalculateOffset(int deltaX, deltaY)
+        {
+            switch (deltaX)
+            {
+                
+            }
+        }
+    }
+
+    public class PlaneNotMovingExeption : System.Exception
+    {
+        public PlaneNotMovingExeption()
+        {
+           
         }
     }
 }
