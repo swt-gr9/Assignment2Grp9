@@ -1,7 +1,12 @@
 ﻿using System;
 
-namespace AirTrafficMonitoringSystem.Calculator
+namespace Calculator
 {
+
+    public interface ICalculator
+    {
+       
+    }
     public static class SHCalculator
     {
         /// <summary>
